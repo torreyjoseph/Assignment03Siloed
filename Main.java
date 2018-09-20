@@ -41,7 +41,7 @@ public class Main {
         float TowerVol12 = pi*(d12/2)*(d12/2)*h12;
         float TotalWaterCubMet = TowerVol1 + TowerVol2 + TowerVol3 + TowerVol4 + TowerVol5 + TowerVol6 + TowerVol7 + TowerVol8 + TowerVol9 + TowerVol10 + TowerVol11 + TowerVol12;
         float TotalWaterCubMetGAL = (TowerVol1 + TowerVol2 + TowerVol3 + TowerVol4 + TowerVol5 + TowerVol6 + TowerVol7 + TowerVol8 + TowerVol9 + TowerVol10 + TowerVol11 + TowerVol12)*264.172f;
-        System.out.println("There are "+ TotalWaterCubMetGAL +" cubic meters of water available for this town.");
+        System.out.println("There are "+ TotalWaterCubMetGAL +" gallons of water available for this town.");
         float Pop = 37640.0f;
         float DailyUse = 0.246f;
         float TMinusRsply = 28f;
