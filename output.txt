@@ -1,7 +1,7 @@
-/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Users/joseph/Desktop/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=53942:/Users/joseph/Desktop/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/joseph/IdeaProjects/Siloed/out/production/Siloed Main
-There are 4.835198E7 gallons of water available for this town.
-The average water usage per person over a 28.0 day period would normally be 6.8490376E7 gallons.
-Each person will have to conserve about 19.10809 gallons of water per day in order to not run out before the resupply. 
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Users/joseph/Desktop/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64988:/Users/joseph/Desktop/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/joseph/IdeaProjects/Siloed/out/production/Siloed Main
+There are 183032.19 cubic meters of water available for this town.
+The average water usage per person over a 28.0 day period would normally be 259264.33 cubic meters.
+Each person will have to conserve about 0.072332 cubic meters of water per day in order to not run out before the resupply.
 Happy rationing!
 
 Process finished with exit code 0
