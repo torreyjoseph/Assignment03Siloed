@@ -40,17 +40,15 @@ public class Main {
         float TowerVol11 = pi*(d11/2)*(d11/2)*h11;
         float TowerVol12 = pi*(d12/2)*(d12/2)*h12;
         float TotalWaterCubMet = TowerVol1 + TowerVol2 + TowerVol3 + TowerVol4 + TowerVol5 + TowerVol6 + TowerVol7 + TowerVol8 + TowerVol9 + TowerVol10 + TowerVol11 + TowerVol12;
-        float TotalWaterCubMetGAL = (TowerVol1 + TowerVol2 + TowerVol3 + TowerVol4 + TowerVol5 + TowerVol6 + TowerVol7 + TowerVol8 + TowerVol9 + TowerVol10 + TowerVol11 + TowerVol12)*264.172f;
-        System.out.println("There are "+ TotalWaterCubMetGAL +" gallons of water available for this town.");
+        System.out.println("There are "+ TotalWaterCubMet +" cubic meters of water available for this town.");
         float Pop = 37640.0f;
         float DailyUse = 0.246f;
         float TMinusRsply = 28f;
         float H2OPPD = Pop*DailyUse*TMinusRsply;
-        float H2OPPDGAL = Pop*DailyUse*TMinusRsply*264.172f;
-        System.out.println("The average water usage per person over a "+ TMinusRsply +" day period would normally be "+ H2OPPDGAL +" gallons.");
+        System.out.println("The average water usage per person over a "+ TMinusRsply +" day period would normally be "+ H2OPPD +" cubic meters.");
         float SavingsTot = H2OPPD-TotalWaterCubMet;
-        float SavingsReq = (SavingsTot/Pop/TMinusRsply)*264.172f;
-        System.out.println("Each person will have to conserve about "+ SavingsReq +" gallons of water per day in order to not run out before the resupply. \nHappy rationing!");
+        float SavingsReq = (SavingsTot/Pop/TMinusRsply);
+        System.out.println("Each person will have to conserve about "+ SavingsReq +" cubic meters of water per day in order to not run out before the resupply.\nHappy rationing!");
 
     }
 }
